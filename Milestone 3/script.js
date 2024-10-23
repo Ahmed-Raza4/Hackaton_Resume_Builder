@@ -8,7 +8,7 @@ function buildResume() {
     var gender = document.querySelector('input[name="gender"]:checked').value;
     var education = document.getElementById("education").value;
     var experience = document.getElementById("experience").value;
-    var skills = document.getElementById("skills").value;
+    var skills = document.getElementById("skills").value;  
     // Handle profile picture
     var profilePicInput = document.getElementById("profilePic");
     var resumePic = document.createElement("img");
